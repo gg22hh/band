@@ -1,0 +1,48 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Poppins:wght@200;300;500;700&family=Roboto:wght@900&display=swap');
+
+/* Globals */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 255px;
+    padding: 0 15px;
+}
+
+
+/* Header */
+
+
+header {
+    border: 1px solid red;
+    height: 100px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 0;
+}
+.nav ul {
+    display: flex;
+}
+.nav ul li {
+    padding-left: 50px;
+}
+.logo {
+    font-size: 36px;
+}
+
+/* Search */
+
+.input {
+    width: 90%;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
