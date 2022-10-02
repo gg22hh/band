@@ -116,6 +116,7 @@ body {
 
 .gallery {
     padding-top: 104px;
+    padding-bottom: 104px;
 }
 .read {
     text-align: center;
@@ -177,4 +178,79 @@ body {
 .item:hover{
     background-color: var(--secondary);
     color: white;
+}
+
+/* Populars */
+.popular_head {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 32px;
+    font-weight: 500;
+}
+.categories_name {
+    margin-right: 360px;
+}
+
+.popular_items {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular_item {
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+
+.popular_img {
+    height: 85%;
+}
+
+.popular_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.popular_info {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;   
+}
+
+.stock {
+    position: absolute;
+    left: 10px;
+    top: 16px;
+    line-height: 3.5vh;
+}
+.bestseller {
+    background-color: var(--primary);
+    color: white;
+    padding: 2px;
+}
+.discount {
+    background-color: #393939;
+    color: white;
+    padding: 2px;
+}
+
+/* Subscribe */
+
+.subscribe {
+    /* background-image: url('../img/subscribe/bg.png'); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: red;
+    height: 1000px;
+}
+
+.sub {
+    margin-top: 100px;
+    height: 200px;
+    background-color: #F3FFF0;
+}
+
+.wrap {
+    display: block;
 }
