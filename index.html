@@ -10,11 +10,11 @@
     <script src="js/main.js"></script>
 </head>
 <body>
-    <div class="page">
-        <header class="header">
+    <div class="root">
+        <header class="header ">
             <div class="container">
-                <div class="nav">
-                    <span class="logo"><a href="#!">LOGO</a></span>
+                <nav class="nav">
+                    <h1 class="logo"><a href="#!">LOGO</a></h1>
                     <ul>
                         <li><a href="#!">Каталог <i class="fa-solid fa-angle-down"></i></a></li>
                         <li><a href="#!">Доставка</a></li>
@@ -22,14 +22,86 @@
                         <li><a href="#!">Lookbooks</a></li>
                         <li><a href="#!">Instashop</a></li>
                     </ul>
-                    <div class="search">
-                        <input type="text" class="input" placeholder="Поиск">
-                        <a href="#!"><i class="fa-solid fa-magnifying-glass"></i></a>
-                    </div>
-                        <a href="#!"><i class="fa-solid fa-cart-shopping"></i>0</a>
-                </div>
+                   <form class="search">
+                        <input class="input" type="text" placeholder="Search">
+                        <a href="#!"><i class="fa-solid fa-magnifying-glass icon_search"></i></a>
+                   </form>
+                   <div class="card-shopping">
+                        <a href="#!"><i class="fa-solid fa-cart-shopping"> 0</i></a>
+                   </div>
+                </nav>
             </div>
         </header>
+        <section class="banner ">
+            <div class="container">
+                <div class="decide">
+                    <div class="left">
+                        <div class="left_text">
+                            <h1>МИНИМАЛИСТИЧНЫЕ ЧАСЫ</h1>
+                            <h2>Маленькие детали, производящие впечатления</h2>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img src="/img/banner/band.png" alt="Band">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container"> 
+                <div class="read">
+                    <p>Все началось с простой идеи: нужно дать
+                        людям качественную время с хорошим 
+                        дизайном, которую мы одели бы сами.</p>
+                    <div class="readButton">
+                        <a href="#!">ЧИТАТЬ</a>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <a href="#!" class="item">
+                        <div>
+                            <div class="itemImg">
+                                <img src="/img/gallery/item 1.png" alt="">
+                                <h1>Часы</h1>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#!" class="item">
+                        <div>
+                            <div class="itemImg">
+                                <img src="/img/gallery/item 1.png" alt="">
+                                <h1>Часы</h1>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#!" class="item">
+                        <div>
+                            <div class="itemImg">
+                                <img src="/img/gallery/item 2.png" alt="">
+                                <h1>Часы</h1>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#!" class="item">
+                        <div>
+                            <div class="itemImg">
+                                <img src="/img/gallery/item 3.png" alt="">
+                                <h1>Часы</h1>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#!" class="item">
+                        <div>
+                            <div class="itemImg">
+                                <img src="/img/gallery/item 4.png" alt="">
+                                <h1>Часы</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
